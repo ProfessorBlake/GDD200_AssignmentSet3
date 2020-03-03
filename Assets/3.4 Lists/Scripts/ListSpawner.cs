@@ -21,6 +21,12 @@ public class ListSpawner : MonoBehaviour
 		}
 		else if (Input.GetMouseButtonDown(1))
 		{
+			int[] numbers = new int[4] { 1, 2, 3, 4 };
+			foreach(int n in numbers)
+			{
+				Debug.Log(n);
+			}
+
 			foreach(GameObject ball in BallList)
 			{
 				Destroy(ball);

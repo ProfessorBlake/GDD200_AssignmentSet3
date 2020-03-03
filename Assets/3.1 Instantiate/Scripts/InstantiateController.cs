@@ -11,7 +11,7 @@ public class InstantiateController : MonoBehaviour
 	{
 		if(Input.GetKeyDown(KeyCode.LeftArrow))
 		{
-			Instantiate(BouncyBoxPrefab, new Vector3(-4f, 4f), Quaternion.identity);
+			Instantiate(BouncyBoxPrefab, new Vector3(-4f, 4f, 0f), Quaternion.identity);
 		}
 		else if(Input.GetKeyDown(KeyCode.RightArrow))
 		{

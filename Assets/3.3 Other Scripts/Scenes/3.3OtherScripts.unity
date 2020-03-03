@@ -364,13 +364,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912c216bd009e4e48a043a310ba6c730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BallPrefab: {fileID: 904444205752377656, guid: e0267f2ccd1c7ec4bb58028c9570af33,
-    type: 3}
+  BallPrefabs:
+  - {fileID: 904444205752377656, guid: e0267f2ccd1c7ec4bb58028c9570af33, type: 3}
+  - {fileID: 9128228903616060511, guid: bb54ff24e4236734aa7e82afdad0613a, type: 3}
+  - {fileID: 266642698154474571, guid: 1d51c57e41354ec4cb64ac72eb47407d, type: 3}
   MessageArr:
   - Goodbye
   - Ouch
   - Splat
   - Pop!
+  - fjlkwenrewljk
   Power: 20
 --- !u!212 &939475520
 SpriteRenderer:

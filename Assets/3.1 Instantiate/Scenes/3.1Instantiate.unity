@@ -149,9 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eacec30d8ab62448a14cc3e825cbb22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BouncyBoxPrefab: {fileID: 887393611097392709, guid: df9add93a466900458c9f1793a73c067,
-    type: 3}
-  StickyBoxPrefab: {fileID: 1698809141996620769, guid: b8fcd6e3ca2b2f04197052efbd4cc656,
+  BouncyBoxPrefab: {fileID: 0}
+  StickyBoxPrefab: {fileID: 1698809141996620769, guid: 67784f30526a3834ea61cf93a89edbc6,
     type: 3}
 --- !u!4 &977685180
 Transform:

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,9 @@ public class RandomSpawner : MonoBehaviour
 	private void Start()
 	{
 		float r = Random.value; //Random.value will return a float between 0.0 - 1.0
-		
+
+		Debug.Log(r);
+
 		if(r > 0.5f)
 		{
 			Debug.Log("Heads");
@@ -32,7 +34,9 @@ public class RandomSpawner : MonoBehaviour
 		}
 		else if (Input.GetKeyDown(KeyCode.Space)) //Choose a random prefab
 		{
-			Instantiate(PrefabArray[Random.Range(0,PrefabArray.Length)], new Vector3(0f, 4f), Quaternion.identity);
+			int r = Random.Range(0, PrefabArray.Length);
+			Debug.Log(PrefabArray[r].name);
+			Instantiate( PrefabArray[r], new Vector3(0f, 4f), Quaternion.identity);
 		}
 	}
 }
