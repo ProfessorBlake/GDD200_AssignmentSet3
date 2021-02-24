@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -149,7 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eacec30d8ab62448a14cc3e825cbb22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BouncyBoxPrefab: {fileID: 0}
+  BouncyBoxPrefab: {fileID: 887393611097392709, guid: e5707b22d29c2584bbc93fa2df49fcbd,
+    type: 3}
   StickyBoxPrefab: {fileID: 1698809141996620769, guid: 67784f30526a3834ea61cf93a89edbc6,
     type: 3}
 --- !u!4 &977685180
@@ -198,6 +200,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
