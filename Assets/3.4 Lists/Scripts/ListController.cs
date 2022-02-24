@@ -25,6 +25,8 @@ public class ListController : MonoBehaviour
 		List<string> NewStudents = new List<string>() { "Eric", "Fran", "Garry" };
 		Students.AddRange(NewStudents);
 		PrintList();
+
+		Debug.Log( Students.IndexOf("Eric") ); 
 	}
 
 	private void PrintList()

@@ -15,7 +15,7 @@ public class ScoreCounter : MonoBehaviour
 
 		Text.text = "Score: " + Score.TotalPoints +
 			"\nTime Scale: " + Time.timeScale +
-			"\nTime Elapsed: " + Time.unscaledTime +
-			"\nTime: " + ourTime;
+			"\nTime Elapsed: " + Mathf.Round(Time.unscaledTime * 100f)/100f +
+			"\nTime: " + Mathf.Round(ourTime * 100f)/100f;
 	}
 }

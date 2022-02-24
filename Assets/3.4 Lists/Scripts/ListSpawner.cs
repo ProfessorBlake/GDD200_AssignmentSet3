@@ -19,13 +19,13 @@ public class ListSpawner : MonoBehaviour
 			GameObject newBall = Instantiate(BallPrefab, new Vector3(Random.Range(-5f, 5f), 5f, 0f), Quaternion.identity);
 			BallList.Add(newBall);
 		}
-		else if (Input.GetMouseButtonDown(1))
+		else if (Input.GetMouseButtonDown(1))	
 		{
-			int[] numbers = new int[4] { 1, 2, 3, 4 };
-			foreach(int n in numbers)
-			{
-				Debug.Log(n);
-			}
+			//string[] names = new string[4] { "Alex", "Betty", "Charlie", "Dwight" };
+			//foreach(string n in names)
+			//{
+			//	Debug.Log(n);
+			//}
 
 			foreach(GameObject ball in BallList)
 			{

@@ -154,6 +154,8 @@ MonoBehaviour:
     type: 3}
   StickyBoxPrefab: {fileID: 1698809141996620769, guid: 67784f30526a3834ea61cf93a89edbc6,
     type: 3}
+  IceBoxPrefab: {fileID: 1987382409011461532, guid: 786146d2b5137a444a9a35448a3c8a80,
+    type: 3}
 --- !u!4 &977685180
 Transform:
   m_ObjectHideFlags: 0
