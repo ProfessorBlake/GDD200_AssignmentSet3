@@ -23,6 +23,20 @@ public class InstantiateController : MonoBehaviour
 				Instantiate(BouncyBoxPrefab, spawnPos, Quaternion.identity);
 				delay = 0.5f;
 			}
+			if (Input.GetMouseButton(1))
+			{
+				Vector3 spawnPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+				spawnPos.z = 0;
+				Instantiate(StickyBoxPrefab, spawnPos, Quaternion.identity);
+				delay = 0.5f;
+			}
+			if (Input.GetMouseButton(2))
+			{
+				Vector3 spawnPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+				spawnPos.z = 0;
+				Instantiate(IceBoxPrefab, spawnPos, Quaternion.identity);
+				delay = 0.5f;
+			}
 		}
 	}
 }
